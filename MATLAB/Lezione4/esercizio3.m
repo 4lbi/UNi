@@ -4,7 +4,7 @@ clc
 
 puzzle = imread('puzzle.jpg');
 
-% 1. read the image
+% 1. read the image black and white
 image = im2gray(puzzle);
 
 % 2. template selection
